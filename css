@@ -1,0 +1,162 @@
+* { 
+     margin: 0; 
+     padding: 0;  
+     box-sizing: border-box;    
+    }    
+    body { 
+    background-color: #e5533c;
+     font-family: Arial, sans-serif;    
+     color: #333;     
+     line-height: 1.6;    
+    }
+    .container {     
+     width: 90%;     
+     max-width: 1200px;    
+     margin: auto;     
+    } 
+    header {     
+     background-color: #333;    
+     color: #b82222;     
+     padding: 15px 0;     
+     position: fixed;     
+     width: 100%;     
+     top: 0;     
+     z-index: 10;    
+    }    
+    header .logo {    
+     font-size: 1.8em;    
+     margin-left: 20px;  
+     display: inline-block;    
+    }
+    header nav ul {     
+     list-style: none;     
+     float: right;    
+     margin-right: 20px; 
+    } 
+    header nav ul li {     
+     display: inline;     
+     margin-left: 20px;     
+    } 
+    header nav ul li a {     
+     color:  #fff;     
+     text-decoration: none;     
+     font-size: 1.1em;     
+    }   
+     header nav ul li a:hover {     
+     color: #ff6347;     
+    }     
+    .hero {     
+     background-color: #e5533c;
+      no-repeat center center/cover;     
+     color: #0b0b0b;     
+     height: 80vh;     
+     text-align: center;    
+     padding-top: 150px; 
+    
+    }   
+    .hero h2 {     
+     font-size: 3em;     
+    } 
+    .hero p {     
+     font-size: 1.5em;    
+     margin: 10px 0;     
+    } 
+    .btn {     
+        display: inline-block;     
+     padding: 10px 20px; 
+     background-color: #ff6347;     
+     color: #fff;     
+     text-decoration: none;     
+     border-radius: 5px;    
+    } 
+    .btn:hover {     
+     background-color:   #e5533c;     
+    }
+    .about {     
+     padding: 60px 0; 
+     background-color:  #e5533c;
+     text-align: center;     
+    } 
+    .about h2 {     
+     font-size: 2.5em;     
+     margin-bottom: 20px;    
+    }    
+    .menu {     
+     padding: 60px 0;    
+     text-align: center;    
+    }  
+    .menu h2 {     
+     font-size: 2.5em;    
+     margin-bottom: 20px;    
+    } 
+    .menu-items {     
+     display: flex;    
+     flex-wrap: wrap;    
+     justify-content: space-around;    
+    } 
+    .menu-item {
+     width: 30%;    
+     background: #f9f9f9;    
+     padding: 20px;     
+     margin: 10px; 
+     border-radius: 5px; 
+     text-align: left; 
+    } 
+    .menu-item h3 { 
+     color: #ff6347; 
+     font-size: 1.8em; 
+    }
+    .menu-item p { 
+     margin: 10px 0; 
+    } 
+    .menu-item span { 
+     font-weight: bold; 
+    }    
+    .testimonials { 
+     padding: 60px 0; 
+     background-color:#e5533c; 
+     text-align: center; 
+    } 
+    .testimonials h2 { 
+     font-size: 2.5em; 
+     margin-bottom: 20px; 
+   }   
+     .testimonial { 
+     margin: 20px auto; 
+     max-width: 600px; 
+     font-style: italic; 
+    }  
+    .contact { 
+     padding: 60px 0; 
+     text-align: center; 
+    } 
+    .contact form { 
+     max-width: 600px; 
+     margin: auto; 
+    } 
+    .contact input, .contact textarea { 
+     width: 100%; 
+     padding: 10px; 
+     margin: 10px 0; 
+     border: 1px solid #ccc; 
+     border-radius: 5px; 
+    } 
+    .contact button { 
+     width: 100%; 
+     padding: 10px; 
+     background-color: #ff6347; 
+     color: #fff; 
+     border: none; 
+     border-radius: 5px; 
+     cursor: pointer; 
+    } 
+    .contact button:hover { 
+     background-color: #e5533c; 
+    } 
+    footer { 
+     background-color: #333; 
+     color: #fff; 
+     text-align: center; 
+     padding: 20px 0; 
+     margin-top: 20px; 
+    }
